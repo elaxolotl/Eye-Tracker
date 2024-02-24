@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyes that follow you</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #FFDE59;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .eyewhite{
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            border-radius: 50%;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            background-color: white;
+            border: solid 3px black;
+        }
+        .eyeball{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .eyeball img{
+            width: 70px;
+            height: auto;
+        }
+    </style>
+    <div class="eyes">
+        <div class="eyewhite">
+            <div class="eyeball"><img src="assets/0.png"></div>
+        </div>
+        <div class="eyewhite">
+            <div class="eyeball"><img src="assets/0.png"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
