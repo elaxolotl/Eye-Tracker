@@ -8,5 +8,3 @@
     <li>CSS</li>
     <li>JavaScript</li>
   </ul>
-  <h2>Usage:</h2>
-  <p>Simply open the <code>index.html</code> file in a web browser, and move your cursor around the screen to see the eyeballs follow its movement.</p>
